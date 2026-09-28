@@ -12,8 +12,7 @@ class GreetingTest {
   @Test
   void messageHasGreetingPrefix() {
     // Provided: already green — the greeting always starts this way.
-    assertTrue(Greeting.message().startsWith("Hello, Java!"),
-        "message() should start with \"Hello, Java!\"");
+    assertTrue(Greeting.message().startsWith("Hello, Java!"), "message() should start with \"Hello, Java!\"");
   }
 
   @Test
